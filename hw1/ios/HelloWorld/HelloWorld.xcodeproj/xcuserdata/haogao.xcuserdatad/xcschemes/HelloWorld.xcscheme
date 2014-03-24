@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2061EB2618E0043F00A069AD"
+               BlueprintIdentifier = "205C2EB118E005290070070D"
                BuildableName = "HelloWorld.app"
                BlueprintName = "HelloWorld"
                ReferencedContainer = "container:HelloWorld.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2061EB4A18E0043F00A069AD"
+               BlueprintIdentifier = "205C2ED518E005290070070D"
                BuildableName = "HelloWorldTests.xctest"
                BlueprintName = "HelloWorldTests"
                ReferencedContainer = "container:HelloWorld.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2061EB2618E0043F00A069AD"
+            BlueprintIdentifier = "205C2EB118E005290070070D"
             BuildableName = "HelloWorld.app"
             BlueprintName = "HelloWorld"
             ReferencedContainer = "container:HelloWorld.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2061EB2618E0043F00A069AD"
+            BlueprintIdentifier = "205C2EB118E005290070070D"
             BuildableName = "HelloWorld.app"
             BlueprintName = "HelloWorld"
             ReferencedContainer = "container:HelloWorld.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2061EB2618E0043F00A069AD"
+            BlueprintIdentifier = "205C2EB118E005290070070D"
             BuildableName = "HelloWorld.app"
             BlueprintName = "HelloWorld"
             ReferencedContainer = "container:HelloWorld.xcodeproj">

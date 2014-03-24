@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4BB61C55-04E6-4BDD-85C0-65051CC5E77F</string>
+	<string>B6E737B3-9604-406F-AFC5-10D847163755</string>
 	<key>IDESourceControlProjectName</key>
 	<string>HelloWorld</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>38E833EC-B01F-4B26-9B2A-AB4097180F96</key>
+		<key>1B087619-C2B3-4963-AD17-6096395D41D8</key>
 		<string>ssh://github.com/gaohao/08723.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>hw1/ios/HelloWorld/HelloWorld.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>38E833EC-B01F-4B26-9B2A-AB4097180F96</key>
+		<key>1B087619-C2B3-4963-AD17-6096395D41D8</key>
 		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>38E833EC-B01F-4B26-9B2A-AB4097180F96</string>
+	<string>1B087619-C2B3-4963-AD17-6096395D41D8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>38E833EC-B01F-4B26-9B2A-AB4097180F96</string>
+			<string>1B087619-C2B3-4963-AD17-6096395D41D8</string>
 			<key>IDESourceControlWCCName</key>
 			<string>08723</string>
 		</dict>
