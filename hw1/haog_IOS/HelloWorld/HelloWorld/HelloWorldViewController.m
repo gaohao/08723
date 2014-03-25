@@ -25,5 +25,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (IBAction)changeText:(id)sender {
+    NSString *txt = self.inputTextField.text;
+    NSString *str = @"Welcome ";
+    str = [str stringByAppendingString:txt];
+    str = [str stringByAppendingString:@" !"];
+    self.welcomeLabel.text = str;
+    [self.view endEditing:YES];
+}
 @end
