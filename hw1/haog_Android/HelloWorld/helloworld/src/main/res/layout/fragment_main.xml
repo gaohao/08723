@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="me.haogao.helloworld.MainActivity$PlaceholderFragment">
+
+    <TextView android:id="@+id/welcome_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="true"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:paddingBottom="50dp"
+        android:layout_gravity="center_horizontal|bottom"/>
+
+    <Button
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_click"
+        android:onClick="btnClick"
+        android:layout_gravity="center" />
+
+    <EditText android:id="@+id/edit_message"
+        android:layout_weight="1"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message"
+        android:layout_gravity="center_horizontal|top"
+        android:paddingTop="50dp" />
+</FrameLayout>
