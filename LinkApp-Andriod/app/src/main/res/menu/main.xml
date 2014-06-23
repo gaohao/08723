@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="me.haogao.linkapp.app.MainActivity" >
+    
+    <item android:id="@+id/selectFB"
+        android:title="Facebook"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/selectTR"
+        android:title="Twitter"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

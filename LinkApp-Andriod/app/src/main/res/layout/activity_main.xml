@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Twitter Login Button -->
+    <Button android:id="@+id/btnLoginTwitter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login with Twitter"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"/>
+
+    <!-- Facebook Login Button -->
+    <Button android:id="@+id/btnLoginFacebook"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login with Facebook"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"/>
+
+    <!-- user name label -->
+    <TextView android:id="@+id/lblUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_marginTop="10dip"/>
+
+    <!-- label update status -->
+    <TextView android:id="@+id/lblUpdate"
+        android:text="Update Status"
+        android:textSize="22sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" />
+
+    <!-- Tweet EditText -->
+    <EditText android:id="@+id/txtUpdateStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Tweet Button -->
+        <ImageButton android:id="@+id/btnUpdateStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/write"/>
+
+        <!-- Take Picture Button -->
+        <ImageButton android:id="@+id/btnTakePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_toRightOf="@+id/btnUpdateStatus"
+            android:src="@drawable/photo"/>
+
+        <!-- Take Picture Button -->
+        <ImageButton android:id="@+id/btnNavigateTimeline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_toRightOf="@+id/btnTakePicture"
+            android:src="@drawable/feed"/>
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Twitter Logout button -->
+    <Button android:id="@+id/btnLogoutTwitter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout from Twitter"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="50dip"
+        android:visibility="gone"/>
+
+    <!-- Facebook Logout button -->
+    <Button android:id="@+id/btnLogoutFacebook"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout from Facebook"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:visibility="gone"/>
+
+</LinearLayout>
